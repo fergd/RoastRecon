@@ -1,3 +1,12 @@
+# Jekyll
+_site/
+.sass-cache/
+.jekyll-metadata
+
+# Sass
+.sass-cache/
+*.css.map
+
 # Logs
 logs
 *.log
