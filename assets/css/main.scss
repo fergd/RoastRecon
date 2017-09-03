@@ -1,0 +1,14 @@
+---
+---
+// Modular typographic scale
+@import "../_sass/modularscale";
+$ms-base: 1em;
+$ms-ratio: 1.5;
+
+@import 
+	"../_sass/normalize",
+	"../_sass/defaults",
+	"../_sass/helpers",
+	"../_sass/color",
+	"../_sass/typography"
+;

@@ -1,0 +1,43 @@
+title: Roast Recon | Discover the perfect coffee house.
+email: fergusdesignllc@gmail.com
+author: Christan Fergus
+description: > 
+  The landing site for the Roast Recon mobile app.
+baseurl: "/"
+url: "http://roastrecon.com" 
+twitter_username: fatherfergus
+github_username:  fergd
+
+css-dir: "assets/css/"
+js-dir: "assets/js/"
+
+# Build settings
+markdown: kramdown
+
+plugins:
+  - jekyll-cloudinary
+
+# https://nhoizey.github.io/jekyll-cloudinary/
+cloudinary:
+  cloud_name: fergd
+  verbose: true
+
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - config
+  - log
+  - node_modules
+  - package.json
+  - tmp
+  - "*.DS_Store"
+  - .gitignore
+
+host: 0.0.0.0
