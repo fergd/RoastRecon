@@ -1,0 +1,29 @@
+header, footer{
+	margin: 0 auto;
+	//TEMP
+	background: #CCC;
+	//ENDTEMP
+}
+.grid-wrapper{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+  	grid-template-rows: auto;
+  	grid-template-areas: 
+    "header header header"
+    "main main main"
+    "footer footer footer";
+	grid-gap: 0;
+}
+.item-a {
+  grid-area: header;
+}
+.item-b {
+  grid-area: main;
+}
+.item-c {
+  grid-area: footer;
+}
+
+h1,h2,h3,h4,h5,h6{
+	margin: 0;
+}
