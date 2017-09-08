@@ -1,12 +1,12 @@
 - name: Chad Beninati
-  title: guy
+  title: 
   blurb: 
-  image: 
+  image: 'avatar.png'
 - name: Jase Smith
-  title: not guy
+  title: 
   blurb:
-  image: 
+  image: 'avatar.png'
 - name: Christan Fergus
-  title: yet another guy
+  title: 
   blurb:
-  image: 
+  image: 'avatar.png'

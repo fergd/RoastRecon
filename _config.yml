@@ -10,6 +10,7 @@ github_username:  fergd
 
 css-dir: "assets/css/"
 js-dir: "assets/js/"
+img-dir: "assets/images/"
 
 # Build settings
 markdown: kramdown

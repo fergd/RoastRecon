@@ -3,5 +3,9 @@ header{
 	text-align: center;
 	h1{
 		color: $rust;
+		font-size: ms(1);
+		@media screen and (min-width: $large){
+			font-size: ms(2);
+		}
 	}
 }

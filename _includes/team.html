@@ -1,8 +1,11 @@
-{% for person in site.data.team %}
-<div class="container">
-	<span>{{ person.name }}</span>
-	<span>{{ person.title }}</span>
-	<span>{{ person.blurb }}</span>
-	<span>{{ person.image }}</span>
+<div class="cell-17 grid-item team-container">
+<h2>Team</h2>
+	<div class="flex-wrapper member-wrapper">
+		{% for person in site.data.team %}
+		<div class="member">
+			<img src="{{ person.image | prepend: site.img-dir }}" alt="Photograph of {{ person.name }}">
+			<p>{{ person.name }}</p>
+		</div>
+		{% endfor %}
+	</div>  
 </div>
-{% endfor %}  
