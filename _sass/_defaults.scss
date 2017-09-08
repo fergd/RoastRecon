@@ -6,6 +6,7 @@ html{
 body{
     font-size: $ms-base;
     max-width: 100%;
+    background: radial-gradient(circle at center, white, $light-grey);
 }
 ::-moz-selection {
     background: #b3d4fc;

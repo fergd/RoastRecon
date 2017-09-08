@@ -1,8 +1,9 @@
 header{
 	background: $black;
 	text-align: center;
+	padding: 10px;
 	h1{
-		color: $rust;
+		color: $light-grey;
 		font-size: ms(1);
 		@media screen and (min-width: $large){
 			font-size: ms(2);
