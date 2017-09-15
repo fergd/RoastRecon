@@ -4,9 +4,9 @@ header{
 	padding: 10px;
 	h1{
 		color: $light-grey;
-		font-size: ms(1);
+		font-size: ms(0);
 		@media screen and (min-width: $large){
-			font-size: ms(2);
+			font-size: ms(1);
 		}
 	}
 }

@@ -1,12 +1,14 @@
 /*! Inspired by HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
 /*! Customized by fergd */
+*{
+    box-sizing: border-box;
+}
 html{
     width: 100%;
 }
 body{
     font-size: $ms-base;
     max-width: 100%;
-    background: radial-gradient(circle at center, white, $light-grey);
 }
 ::-moz-selection {
     background: #b3d4fc;

@@ -1,5 +1,5 @@
 $sans-serif-stack: Helvetica, Helvetica Neue, Arial;
-$headline: 'Cutive', serif;
+$headline: 'Arvo', serif;
 // $headline: 'Merriweather', serif;
 // $headline: 'Rokkitt', serif;
 $body: 'Quicksand', $sans-serif-stack, sans-serif;
@@ -10,6 +10,7 @@ body{
 h1,h2,h3,h4,h5,h6{
 	margin: 0;
 	line-height: 1;
+	color: $med-grey;
 }
 h1,h2{
 	font-family: $headline;
