@@ -23,7 +23,6 @@ cloudinary:
   cloud_name: fergd
   verbose: true
 
-
 exclude:
   - Gemfile
   - Gemfile.lock

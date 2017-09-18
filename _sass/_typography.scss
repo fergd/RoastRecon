@@ -1,39 +1,40 @@
 $sans-serif-stack: Helvetica, Helvetica Neue, Arial;
-$headline: 'Arvo', serif;
+// $headline: 'Arvo', serif;
 // $headline: 'Merriweather', serif;
-// $headline: 'Rokkitt', serif;
+$headline: 'Rokkitt', serif;
 $body: 'Quicksand', $sans-serif-stack, sans-serif;
 
 body{
 	font-family: $body;
+	overflow-wrap: break-word;
+}
+small{
+	font-size: ms(-2);
 }
 h1,h2,h3,h4,h5,h6{
 	margin: 0;
-	line-height: 1;
 	color: $med-grey;
 }
 h1,h2{
 	font-family: $headline;
 }
 h1{
-	font-size: ms(3);
+	font-size: ms(4);
 }
 h2{
-	font-size: ms(2);
+	font-size: ms(3);
 }
 h3{
-	font-size: ms(1);
+	font-size: ms(2);
 }
 h4{
-	font-size: ms(0)
+	font-size: ms(1)
 }
-body, p{
-	font-size: ms(0);
+p{
+	font-size: ms(1);
 }
+
 @media screen and (min-width: $large){
-	/* ======
-	Large
-	=======*/
 	h1{
 		font-size: ms(4);
 	}
