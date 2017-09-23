@@ -2,11 +2,28 @@ header{
 	background: $black;
 	text-align: center;
 	padding: 10px;
+	@extend .flex-wrapper;
+	justify-content: center;
+	align-items: center;
+	a{
+		@extend .flex-wrapper;
+		justify-content: center;
+		align-items: center;
+	}
 	h1{
 		color: $light-grey;
-		font-size: ms(0);
-		@media screen and (min-width: $large){
-			font-size: ms(1);
-		}
+		font-family: $logo;
+		font-size: ms(2);
+		position: relative;
+		display: inline-block;
+	}
+	span.icon-logo{
+		@extend .icon-logo-24;
+		display: inline-block;
+		width: 30px;
+		height: 30px;
+		background-size: cover;
+		margin-right: 12px;
+		margin-top: -3px;
 	}
 }

@@ -1,15 +1,14 @@
 button.cta-button{
 	outline: none;
-	font-size: ms(1);
-	padding: 15px 30px;
+	font-size: ms(0);
+	padding: 8px 16px;
+	@media screen and (min-width: $large){
+		font-size: ms(1);
+		padding: 10px 20px;
+	}
 	border: 2px solid darken($yellow, 10%);
 	border-bottom: 7px solid darken($yellow, 10%);
 	background: linear-gradient($yellow, darken($yellow, 5%));
 	border-radius: 5px 5px 10px 10px;
 	color: darken($yellow, 30%);
-	// box-shadow: 0 7px 0 0 rgba(244,202,20,0.5);
-	// text-transform: uppercase;
-	@media screen and (max-width: $small){
-		text-align: center;
-	}
 }

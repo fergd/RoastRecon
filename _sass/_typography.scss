@@ -1,7 +1,6 @@
 $sans-serif-stack: Helvetica, Helvetica Neue, Arial;
-// $headline: 'Arvo', serif;
-// $headline: 'Merriweather', serif;
-$headline: 'Rokkitt', serif;
+$headline: 'Merriweather', serif;
+$logo: 'Rokkitt', serif;
 $body: 'Quicksand', $sans-serif-stack, sans-serif;
 
 body{
@@ -15,14 +14,14 @@ h1,h2,h3,h4,h5,h6{
 	margin: 0;
 	color: $med-grey;
 }
-h1,h2{
+h1,h2,h3{
 	font-family: $headline;
 }
 h1{
-	font-size: ms(4);
+	font-size: ms(3);
 }
 h2{
-	font-size: ms(3);
+	font-size: ms(2);
 }
 h3{
 	font-size: ms(2);
@@ -31,7 +30,7 @@ h4{
 	font-size: ms(1)
 }
 p{
-	font-size: ms(1);
+	font-size: ms(0);
 }
 
 @media screen and (min-width: $large){
@@ -47,7 +46,7 @@ p{
 	h4{
 		font-size: ms(1)
 	}
-	body, p{
-		font-size: ms(0);
+	p{
+		font-size: ms(1);
 	}
 }

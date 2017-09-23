@@ -1,3 +1,53 @@
 .hook{
-	box-shadow: inset -59px 10px 207px -56px rgba(0,0,0,0.2);
+}
+.teaser{
+	h2{
+		color: $med-grey;
+	}
+	p{
+		line-height: 1.5;
+	}
+}
+.map{
+	background-image: url('../images/mappy.png');
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+
+// Phone
+.phone-outer{
+	width: 70%;
+	@media screen and (min-width: 600px){
+		width: 90%;
+	}
+	@media screen and (min-width: $medium){
+		width: 90%;
+	}
+	@media screen and (min-width: 860px){
+		width: 70%;
+	}
+	@media screen and (min-width: 1000px){
+		width: 60%;
+	}
+	@media screen and (min-width: 1250px){
+		width: 60%;
+	}
+	@media screen and (min-width: 1350px){
+		width: 50%;
+	}
+	background: $black;
+	height: 600px;
+	border-radius: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 0 30px 100px 10px rgba(0,0,0,0.4);
+	.screen{
+		width: 90%;
+		height: 85%;
+		border-radius: 5px;
+		background:  white url('../images/mappy.png');
+		background-attachment: fixed;
+	}
 }
