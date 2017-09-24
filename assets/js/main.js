@@ -15,4 +15,7 @@ $(document).ready(function() {
     } else {
         $(".cta-container").append("<img src=\"../assets/images/apple.png\">&nbsp;<img src=\"../assets/images/google.png\">");
     }
+    // Copyright year
+    var currentYear = (new Date).getFullYear();
+    $('.date').text( '\u00A9' + (new Date).getFullYear() );
 });
