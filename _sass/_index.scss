@@ -1,9 +1,27 @@
+.hook-bg{
+	background: $black url('../images/andrew-welch-330269.jpg');
+	background-size: cover;
+	background-position: bottom;
+}
 .hook{
+	margin-bottom: 30px;
+	h2{
+		color: $yellow;
+	}
+	p{
+		color: $white;
+		span{
+			color: $yellow;
+		}
+	}
+}
+.cta-container{
+	border-top: 1px solid $light-grey;
+	padding-top: ms(0);
 }
 .teaser{
-	h2{
-		color: $med-grey;
-	}
+	padding: 30px;
+	background: $white;
 	p{
 		line-height: 1.5;
 	}
@@ -12,8 +30,26 @@
 	background-image: url('../images/mappy.png');
 	background-size: cover;
 	background-attachment: fixed;
+	border-top: 1px solid darken($black, 5%);
 }
+.filler-bg{
+	background: url('../images/test.jpg');
+	background-size: cover;
+	background-position: bottom;
+	background-attachment: fixed;
+	border-top: 1px solid $black;
+	justify-content: center;
+	align-items: center;
 
+	span{
+		@extend .icon-location;
+		@extend .icon;
+		width: 100px;
+		height: 120px;
+		margin-top: -150px;
+	}
+
+}
 
 // Phone
 .phone-outer{
@@ -39,6 +75,7 @@
 	background: $black;
 	height: 600px;
 	border-radius: 30px;
+	border: 3px solid darken($black, 5%);
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -47,7 +84,8 @@
 		width: 90%;
 		height: 85%;
 		border-radius: 5px;
-		background:  white url('../images/mappy.png');
+		border: 2px solid $white;
+		background:  $white url('../images/mappy.png');
 		background-attachment: fixed;
 	}
 }

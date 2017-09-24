@@ -1,21 +1,24 @@
 header{
-	background: $black;
+	background: $white;
 	text-align: center;
+	border-bottom: 1px solid $black;
 	padding: 10px;
 	@extend .flex-wrapper;
 	justify-content: center;
 	align-items: center;
+	box-shadow: 0 0 40px 2px rgba(0,0,0,.2);
 	a{
 		@extend .flex-wrapper;
 		justify-content: center;
 		align-items: center;
 	}
 	h1{
-		color: $light-grey;
+		color: $black;
 		font-family: $logo;
-		font-size: ms(2);
+		font-size: ms(1);
 		position: relative;
 		display: inline-block;
+		border-bottom: 3px solid $rust;
 	}
 	span.icon-logo{
 		@extend .icon-logo-24;

@@ -1,6 +1,8 @@
 $sans-serif-stack: Helvetica, Helvetica Neue, Arial;
-$headline: 'Merriweather', serif;
-$logo: 'Rokkitt', serif;
+// $headline: 'Merriweather', serif;
+// $headline: 'Ultra', serif;
+$headline: 'Roboto Slab', serif;
+$logo: 'Ultra', serif;
 $body: 'Quicksand', $sans-serif-stack, sans-serif;
 
 body{
@@ -12,6 +14,9 @@ small{
 }
 h1,h2,h3,h4,h5,h6{
 	margin: 0;
+	color: $black;
+}
+p{
 	color: $med-grey;
 }
 h1,h2,h3{
@@ -49,4 +54,10 @@ p{
 	p{
 		font-size: ms(1);
 	}
+}
+
+.rr{
+	font-family: $logo;
+	color: $rust;
+	font-size: ms(0);
 }
