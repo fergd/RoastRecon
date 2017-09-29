@@ -5,8 +5,13 @@
 }
 .hook{
 	margin-bottom: 30px;
+	@media screen and (max-width: $medium){
+		padding-top: 60px;
+	}
+
 	h2{
 		color: $yellow;
+		text-shadow: 0 0 5px rgba(69,56,48,0.9);
 	}
 	p{
 		color: $white;
@@ -15,12 +20,11 @@
 		}
 	}
 }
-.cta-container{
-	border-top: 1px solid $light-grey;
-	padding-top: ms(0);
-}
 .teaser{
 	padding: 30px;
+	@media screen and (max-width: $medium){
+		padding: 70px 30px;
+	}
 	background: $white;
 	p{
 		line-height: 1.5;
@@ -29,8 +33,9 @@
 .map{
 	background-image: url('../images/mappy.png');
 	background-size: cover;
-	background-attachment: fixed;
-	border-top: 1px solid darken($black, 5%);
+	@media screen and (min-width: $medium){
+		border-top: 1px solid darken($black, 5%);
+	}
 }
 .filler-bg{
 	background: url('../images/test.jpg');
@@ -46,46 +51,8 @@
 		@extend .icon;
 		width: 100px;
 		height: 120px;
-		margin-top: -150px;
+		margin-top: -80px;
 	}
 
 }
 
-// Phone
-.phone-outer{
-	width: 70%;
-	@media screen and (min-width: 600px){
-		width: 90%;
-	}
-	@media screen and (min-width: $medium){
-		width: 90%;
-	}
-	@media screen and (min-width: 860px){
-		width: 70%;
-	}
-	@media screen and (min-width: 1000px){
-		width: 60%;
-	}
-	@media screen and (min-width: 1250px){
-		width: 60%;
-	}
-	@media screen and (min-width: 1350px){
-		width: 50%;
-	}
-	background: $black;
-	height: 600px;
-	border-radius: 30px;
-	border: 3px solid darken($black, 5%);
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	box-shadow: 0 30px 100px 10px rgba(0,0,0,0.4);
-	.screen{
-		width: 90%;
-		height: 85%;
-		border-radius: 5px;
-		border: 2px solid $white;
-		background:  $white url('../images/mappy.png');
-		background-attachment: fixed;
-	}
-}

@@ -9,9 +9,9 @@ $(document).ready(function() {
     };
     
     if (isMobile.Android()) {
-        $(".cta-container").append("<img src=\"../assets/images/google.png\"><br><a href=\"\">Get the iOS version</a>");
+        $(".cta-container").append("<img src=\"../assets/images/google.png\"><a href=\"\">Get the iOS version</a>");
     } else if (isMobile.iOS()) {
-        $(".cta-container").append("<img src=\"../assets/images/apple.png\"><br><a href=\"\">Get the Android version</a>");
+        $(".cta-container").append("<img src=\"../assets/images/apple.png\"><a href=\"\">Get the Android version</a>");
     } else {
         $(".cta-container").append("<img src=\"../assets/images/apple.png\">&nbsp;<img src=\"../assets/images/google.png\">");
     }

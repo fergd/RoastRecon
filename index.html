@@ -6,39 +6,33 @@ title: Roast Recon
 <div class="cell-1 grid-item hook">
 	<section>
 		<h2>Find your next favorite coffee shop.</h2>
-		<p>Get the <span class="rr">Roast Recon</span> app to discover and share quality coffee in your area.</p>
-		<div class="cta-container">
-		{% comment %}JS inserts the right button here{% endcomment %}  					
-		</div>
+		<p>Get the <span class="rr">Roast Recon</span> app to discover and share craft coffee in your area.</p>
 	</section>
+	{% include cta-container.html %}
 </div>
 
 <div class="cell-5 grid-item map"></div>
 
-<div class="cell-11 grid-item flex-wrapper phone">
-	<div class="phone-outer">
-		<div class="screen"></div>
-	</div>
-</div>
+{% include phone.html %} 
 
 <div class="cell-13 grid-item teaser">
 	<section>
 		<h3>Discover the Best Coffee Around You</h3>
 		<p>Finding the right coffee shop can be hard, especially if you don't know the area. <span class="rr">Roast Recon</span> helps you out by surfacing the coffee shops you may miss.</p>
 	</section>
-	<div class="cta-container">
-		{% comment %}JS inserts the right button here{% endcomment %}  					
-	</div>
+	{% include cta-container.html %} 
 </div>
 
 
 <div class="cell-19 grid-item filler-bg flex-wrapper">
-	<span></span>
+	<span class="rr-icon"></span>
 </div>
+
 <div class="cell-15 grid-item teaser">
 	<section>
 		<h3>Remember Your Experiences</h3>
 		<p>Record your visits in <span class="rr">Roast Recon</span>. It'll help you remember that awesome place you visited 6 months ago, and also help other coffee travellers find the right place for them.</p>
 	</section>
 </div> 
+
 {% include team.html %} 

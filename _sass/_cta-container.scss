@@ -1,0 +1,16 @@
+
+.cta-container{
+	border-top: 1px solid $light-grey;
+	padding-top: ms(0);
+}
+@media screen and (max-width: $medium){	
+	.cta-container{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		img{
+			margin-bottom: ms(1);
+		}
+	}
+}

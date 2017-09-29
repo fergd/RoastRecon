@@ -1,8 +1,13 @@
+@media screen and (max-width: $medium){
+	.team-container{
+		display: none !important;
+    	visibility: hidden;
+	}
+}
 .team-container{
 	padding-top: 20px;
-	// background: rgba(248,248,245, 0.8);
-	background: $white;
 	h3{
 		margin: 20px 0;
+		color: $yellow;
 	}
 }

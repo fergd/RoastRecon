@@ -1,9 +1,14 @@
 $sans-serif-stack: Helvetica, Helvetica Neue, Arial;
 // $headline: 'Merriweather', serif;
 // $headline: 'Ultra', serif;
-$headline: 'Roboto Slab', serif;
-$logo: 'Ultra', serif;
-$body: 'Quicksand', $sans-serif-stack, sans-serif;
+// $headline: 'Roboto Slab', serif;
+$headline: 'Merriweather', monospace;
+
+$logo: 'Courier New';
+// $logo: 'Ultra', serif;
+// $body: 'Quicksand', $sans-serif-stack, sans-serif;
+
+$body: 'EB Garamond', $sans-serif-stack, sans-serif;
 
 body{
 	font-family: $body;
@@ -21,12 +26,13 @@ p{
 }
 h1,h2,h3{
 	font-family: $headline;
+	letter-spacing: 0.05ch;
 }
 h1{
 	font-size: ms(3);
 }
 h2{
-	font-size: ms(2);
+	font-size: ms(3);
 }
 h3{
 	font-size: ms(2);
@@ -35,9 +41,13 @@ h4{
 	font-size: ms(1)
 }
 p{
-	font-size: ms(0);
+	font-size: ms(1);
 }
-
+@media screen and (min-width: $medium){
+	h3{
+		font-size: ms(2);
+	}
+}
 @media screen and (min-width: $large){
 	h1{
 		font-size: ms(4);
@@ -57,7 +67,9 @@ p{
 }
 
 .rr{
-	font-family: $logo;
 	color: $rust;
-	font-size: ms(0);
+	font-weight: bold;
+}
+.logo{
+	word-spacing: -0.03ch;
 }

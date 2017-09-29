@@ -1,6 +1,5 @@
 ---
 ---
-// Modular typographic scale
 @import "../_sass/modularscale";
 $ms-base: 1em;
 $ms-ratio: 1.5;
@@ -21,6 +20,7 @@ $ms-ratio: 1.5;
 	"../_sass/hook",
 	"../_sass/team",
 	"../_sass/footer",
-	"../_sass/iphone",
-	"../_sass/index"
+	"../_sass/index",
+	"../_sass/phone",
+	"../_sass/cta-container"
 ;
