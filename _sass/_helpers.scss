@@ -53,13 +53,3 @@
     font-family: $body;
     color: $rust;
 }
-
-// div[class^="cell-"]::after{
-//     content: attr(class);
-//     font-size: ms(1);
-//     position: absolute;
-//     top: 0;
-//     right: 0;
-//     color: black;
-//     background: yellow;
-// }
