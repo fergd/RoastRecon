@@ -1,0 +1,29 @@
+a.logo-component{
+	@extend .flex-wrapper;
+	justify-content: center;
+	align-items: top;
+	
+	h1{
+		font-family: $logo;
+		border-bottom: 3px solid $rust;
+		color: $black;
+		font-family: $logo;
+		font-size: ms(1);
+		word-spacing: -0.5ch;
+	}
+	span.beta{
+	    text-transform: uppercase;
+	    font-size: ms(-2);
+	    font-family: $body;
+	    color: $rust;
+	    font-weight: 800;
+	}
+}
+
+footer{
+	a.logo-component{
+		h1{
+			color: $yellow;
+		}
+	}
+}

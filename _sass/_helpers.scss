@@ -46,10 +46,3 @@
     margin: 0;
     padding: 0;
 }
-
-[data-beta]::after{
-    content: " BETA";
-    font-size: ms(-2);
-    font-family: $body;
-    color: $rust;
-}

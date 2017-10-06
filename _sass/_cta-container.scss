@@ -1,7 +1,9 @@
-
 .cta-container{
-	border-top: 1px solid $light-grey;
+	// border-top: 1px solid $light-grey;
 	padding-top: ms(0);
+	a{
+		display: block;
+	}
 }
 @media screen and (max-width: $medium){	
 	.cta-container{

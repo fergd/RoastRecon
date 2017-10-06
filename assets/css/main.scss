@@ -1,7 +1,7 @@
 ---
 ---
 @import "../_sass/modularscale";
-$ms-base: 1em;
+$ms-base: 1rem;
 $ms-ratio: 1.5;
 
 @import 
@@ -16,6 +16,7 @@ $ms-ratio: 1.5;
 	"../_sass/icons",
 	"../_sass/layout",
 	"../_sass/grid",
+	"../_sass/logo-component",
 	"../_sass/header",
 	"../_sass/hook",
 	"../_sass/team",

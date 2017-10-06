@@ -1,75 +1,98 @@
-$sans-serif-stack: Helvetica, Helvetica Neue, Arial;
-// $headline: 'Merriweather', serif;
 // $headline: 'Ultra', serif;
 // $headline: 'Roboto Slab', serif;
-$headline: 'Merriweather', monospace;
-
-$logo: 'Courier New';
+// $headline: 'Merriweather', monospace;
 // $logo: 'Ultra', serif;
 // $body: 'Quicksand', $sans-serif-stack, sans-serif;
+// $body: 'EB Garamond', $sans-serif-stack, sans-serif;
 
-$body: 'EB Garamond', $sans-serif-stack, sans-serif;
+$sans-serif-stack: Helvetica, Helvetica Neue, Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, Arial;
+$serif-stack: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+$monospace-stack: Courier, Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, monospace;
+
+$logo: 'Courier New', $monospace-stack;
+$headline: 'Merriweather', $serif-stack;
+$body: 'Mukta', $sans-serif-stack;
+
+$headline-spacing: 0.05ch;
+$basic-line: 1.4;
 
 body{
 	font-family: $body;
+	font-weight: 200;
 	overflow-wrap: break-word;
 }
 small{
 	font-size: ms(-2);
 }
+// Content
+p{
+	color: $med-grey;
+	font-size: ms(1);
+	font-weight: 200;
+	max-width: 600px;
+	line-height: $basic-line;
+	margin-bottom: 36px;
+	margin-top: 16px;
+}
+// Headings
 h1,h2,h3,h4,h5,h6{
 	margin: 0;
 	color: $black;
-}
-p{
-	color: $med-grey;
+	line-height: $basic-line;
+	letter-spacing: $headline-spacing;
 }
 h1,h2,h3{
 	font-family: $headline;
-	letter-spacing: 0.05ch;
+	font-weight: 400;
+}
+h4,h5{
+	font-weight: 900;
+}
+h6{
+	font-family: $body;
+	font-weight: 900;
 }
 h1{
-	font-size: ms(3);
+	font-size: ms(4);
 }
 h2{
 	font-size: ms(3);
 }
-h3{
+h3,h4{
 	font-size: ms(2);
 }
-h4{
-	font-size: ms(1)
-}
-p{
+h5{
 	font-size: ms(1);
 }
-@media screen and (min-width: $medium){
-	h3{
+h6{
+	font-size: ms(0);
+}
+@media screen and (max-width: 424px){
+	h2{
 		font-size: ms(2);
 	}
 }
 @media screen and (min-width: $large){
-	h1{
-		font-size: ms(4);
-	}
-	h2{
-		font-size: ms(3);
-	}
-	h3{
-		font-size: ms(2);
-	}
-	h4{
-		font-size: ms(1)
-	}
-	p{
-		font-size: ms(1);
-	}
+	// h1{
+	// 	font-size: ms(4);
+	// }
+	// h2{
+	// 	font-size: ms(3);
+	// }
+	// h3{
+	// 	font-size: ms(2);
+	// }
+	// h4{
+	// 	font-size: ms(1)
+	// }
+	// p{
+	// 	font-size: ms(1);
+	// }
 }
 
 .rr{
 	color: $rust;
-	font-weight: bold;
 }
 .logo{
-	word-spacing: -0.03ch;
+	word-spacing: -0.4ch;
 }

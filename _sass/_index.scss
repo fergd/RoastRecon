@@ -8,13 +8,15 @@
 	@media screen and (max-width: $medium){
 		padding-top: 60px;
 	}
-
+    h2, p{
+		text-shadow: 0 0 5px rgba(69,56,48,0.9);
+    }
 	h2{
 		color: $yellow;
-		text-shadow: 0 0 5px rgba(69,56,48,0.9);
 	}
 	p{
 		color: $white;
+		font-weight: 400;
 		span{
 			color: $yellow;
 		}
@@ -26,23 +28,20 @@
 		padding: 70px 30px;
 	}
 	background: $white;
-	p{
-		line-height: 1.5;
-	}
 }
 .map{
 	background-image: url('../images/mappy.png');
 	background-size: cover;
 	@media screen and (min-width: $medium){
-		border-top: 1px solid darken($black, 5%);
+		// border-top: 1px solid darken($black, 5%);
 	}
 }
 .filler-bg{
-	background: url('../images/test.jpg');
+	background: url('../images/test2.jpg');
 	background-size: cover;
 	background-position: bottom;
 	background-attachment: fixed;
-	border-top: 1px solid $black;
+	// border-top: 1px solid $black;
 	justify-content: center;
 	align-items: center;
 
