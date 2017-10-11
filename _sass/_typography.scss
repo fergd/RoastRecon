@@ -14,7 +14,7 @@ $headline: 'Merriweather', $serif-stack;
 $body: 'Mukta', $sans-serif-stack;
 
 $headline-spacing: 0.05ch;
-$basic-line: 1.4;
+$basic-line: 1.2;
 
 body{
 	font-family: $body;
@@ -30,7 +30,7 @@ p{
 	font-size: ms(1);
 	font-weight: 200;
 	max-width: 600px;
-	line-height: $basic-line;
+	line-height: 1.4;
 	margin-bottom: 36px;
 	margin-top: 16px;
 }
@@ -44,6 +44,7 @@ h1,h2,h3,h4,h5,h6{
 h1,h2,h3{
 	font-family: $headline;
 	font-weight: 400;
+	letter-spacing: -0.04ch;
 }
 h4,h5{
 	font-weight: 900;

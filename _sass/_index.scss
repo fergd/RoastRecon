@@ -4,7 +4,7 @@
 	background-position: bottom;
 }
 .hook{
-	margin-bottom: 30px;
+	margin: 40px 0 30px 0;
 	@media screen and (max-width: $medium){
 		padding-top: 60px;
 	}
@@ -37,7 +37,17 @@
 	}
 }
 .filler-bg{
-	background: url('../images/test2.jpg');
+	// Photo by christian koch on Unsplash
+	// @media screen and (max-width: $small){
+	// 	background-image: url('http://res.cloudinary.com/fergd/image/upload/c_scale,w_420/v1507690307/roast_recon/christian-koch-98476.jpg');
+	// }
+	// @media screen and (max-width: $large){
+	// 	background-image: url('http://res.cloudinary.com/fergd/image/upload/c_scale,w_1024/v1507690307/roast_recon/christian-koch-98476.jpg');
+	// }
+	// @media screen and (max-width: $xlarge){
+	// 	background-image: url('http://res.cloudinary.com/fergd/image/upload/c_scale,w_2471/v1507690307/roast_recon/christian-koch-98476.jpg');
+	// }
+	background-image: url('../images/nathan-dumlao-290152.jpg');
 	background-size: cover;
 	background-position: bottom;
 	background-attachment: fixed;
@@ -55,3 +65,6 @@
 
 }
 
+
+// Photo by Nathan Dumlao on Unsplash
+// Photo by hd on Unsplash

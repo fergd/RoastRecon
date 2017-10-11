@@ -17,5 +17,5 @@ $(document).ready(function() {
     }
     // Copyright year
     var currentYear = (new Date).getFullYear();
-    $('.date').text( '\u00A9' + (new Date).getFullYear() );
+    $('.date').text(currentYear);
 });
