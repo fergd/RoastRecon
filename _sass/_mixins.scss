@@ -1,0 +1,3 @@
+@mixin yellow-gradient($amnt: 50%, $vert: top){	
+	background: linear-gradient(to $vert, $yellow $amnt, lighten($yellow, 10%));
+}
